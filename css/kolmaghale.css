@@ -1,0 +1,153 @@
+html{
+  box-sizing: border-box;
+}
+body{
+  background-color: #dddddd36 !important;
+}
+@font-face {
+  font-family: 'man';
+  src:  url('fonts/Tanha-FD.eot')  format('eot');
+  src:  url('fonts/Tanha-FD.woff') format('woff');
+  src:  url('fonts/Tanha-FD.woff2') format('woff2');
+
+}
+p{
+  font-family: man;
+}
+.rapit .andaz img{
+  height: 200px;
+  width: 230px;
+  border-bottom: 4px solid #b5943b;
+}
+.fakeimg{
+    height: 200px;
+    background: #aaa;
+}
+.rapit li{
+  position: relative;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #dee2e6;
+  list-style: none;
+}
+.rapit .box-kenary .sidebar-box{
+  margin: 10px 0px;
+    background-color: #fff;
+    padding: 10px;
+      -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.rapit .categories li a span, .sidelink li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ccc;
+}
+.rapit .categories h5 {
+    font-size: 20px;
+    margin-bottom: 23px;
+    margin-top: 1px;
+    border-bottom: 1px solid gray;
+    padding: 15px 0px;
+}
+.rapit .daste-1{
+  position: relative;
+  top: 33px;
+  left: 6px;
+  background-color: red;
+  display: inline-block;
+  color: #ffff;
+  font-size: 15px;
+  padding: 3px;
+}
+.rapit .matn{
+  font-size: 16px;
+}
+.rapit .nevasande{
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.rapit .titr{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.rapit .titr a{
+  color: black;
+}
+.rapit .titr a:hover{
+  color: red;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.rapit .titr-10{
+  margin-top: 1px;
+  font-size: 23px;
+  border-bottom: 2px dotted black;
+  padding: 6px 0px;
+}
+.rapit .aval-box{
+  margin-top: 10px;
+    background-color: #fff;
+    padding: 5px;
+      -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.rapit .sidebar-box-0{
+  margin: 8px 0px;
+    background-color: #fff;
+    padding: 5px;
+      -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+
+.rapit .box-kenary .sidebar-box-0 p{
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.rapit .box-kenary .sidebar-box-0 span{
+  position: relative;
+  bottom: 24px;
+  right: 170px; 
+  font-size: 13px;
+  float: right;
+  font-weight: 500;
+}
+.rapit .box-kenary .sidebar-box-0 a{
+  color: blue;
+}
+.rapit .box-kenary .sidebar-box-0 a:hover{
+  color: red;
+  text-decoration: none;
+  transition: all 0.5s;;
+}
+
+
+
+@media only screen and (min-width: 230px) and (max-width:780px) {
+  .rapit .andaz img{
+  height: 200px;
+  width:330px;
+}
+.rapit .daste-1{
+  position: relative;
+  top: 33px;
+  left: 0px;
+}
+}
+
+@media only screen and (min-width: 781px) and (max-width:1064px) {
+   .rapit .andaz img{
+  height: 200px;
+  width:120px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px) {
+     .rapit .andaz img{
+  height: 200px;
+  width:190px;
+}
+}
