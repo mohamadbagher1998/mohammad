@@ -800,7 +800,9 @@ background-image: url(img/speaker_bg.png);
 	border-radius: 25px;
 }
 
-
+.circular-menu{
+z-index: 9990;
+}
 
 @media only screen and (min-width: 230px) and (max-width:780px) {
 	.project1{
@@ -826,7 +828,10 @@ background-image: url(img/speaker_bg.png);
 	margin-right: 20px;
 }
 .icon-bar-0-n .icon-bar-z a {
-  font-size: 10px;
+  font-size: 8px;
+}
+.share-share-1{
+  display: none;
 }
 }
 

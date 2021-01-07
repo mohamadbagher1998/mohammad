@@ -50,11 +50,29 @@
 
 <!--share-->
 
+<!--share  mob-->
+  <link rel="stylesheet" type="text/css" href="css-2/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css-2/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css-2/css/prefixed-style.css" />
+<!--share mob-->
 
 </head>
 <body>
   
+<div id="circularMenu" class="circular-menu">
 
+    <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+      <i class="fa fa-plus"></i>
+    </a>
+
+    <menu class="items-wrapper">
+      <a href="#" class="menu-item fa fa-facebook"></a>
+      <a href="#" class="menu-item fa fa-twitter"></a>
+      <a href="#" class="menu-item fa fa-google-plus"></a>
+      <a href="#" class="menu-item fa fa-linkedin"></a>
+    </menu>
+
+  </div>
 
 <section class="share-share-1">
   <div class="poshtibani">
@@ -675,16 +693,23 @@
       <!--Grid column-->
       <div class="col-md-12 mb-4 mt-4">
 
-        <!-- Form -->
-        <div class="trs">
-          <form class="input-group">
-          <input type="text" class="form-control form-control-sm" placeholder="Your email"
-            aria-label="Your email" aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-sm btn-outline-white my-0 mr-4 myclass-titr" type="button" style="background-color:#ccb67e;">ثبت نام</button>
+        <section class="new-leeteer" id="new-leeteer-id">
+          <div class="container headings text-center font-30" style="margin-bottom: 40px;">
+            <h4 class="text-center font-weight-bold myclass-titr" style="font-size: 20px;">اخرین اخبار را از طریق ایمیل خود دریافت کنید </h4>
+         </div>
+         <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-lg-2 offset-md-2 col-12 gmail-1">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control text-right new-l" placeholder="ایمیل خود را وارد کنید ">
+                <div class="input-group-append">
+                  <span class="input-group-text">عضو شوید </span>
+                </div>
+              </div>
+            </div>
           </div>
-        </form>
         </div>
+      </section>
         
         <!-- Form -->
 
