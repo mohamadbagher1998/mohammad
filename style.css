@@ -802,6 +802,7 @@ background-image: url(img/speaker_bg.png);
 
 .circular-menu{
 z-index: 9990;
+display: none;
 }
 
 @media only screen and (min-width: 230px) and (max-width:780px) {
@@ -828,10 +829,14 @@ z-index: 9990;
 	margin-right: 20px;
 }
 .icon-bar-0-n .icon-bar-z a {
-  font-size: 8px;
+  display: none;
 }
 .share-share-1{
   display: none;
+}
+.circular-menu{
+z-index: 9990;
+display:inline;
 }
 }
 
