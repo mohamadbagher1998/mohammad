@@ -825,6 +825,9 @@ background-image: url(img/speaker_bg.png);
 .sochial-web{
 	margin-right: 20px;
 }
+.icon-bar-0-n .icon-bar-z a {
+  font-size: 10px;
+}
 }
 
 @media only screen and (min-width: 781px) and (max-width:1064px) {
