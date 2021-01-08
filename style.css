@@ -449,6 +449,7 @@ background-image: url(img/speaker_bg.png);
     border-radius: 3px;
     transition: 0.3s ease;
     cursor: pointer;
+    margin-top: 13px;
 }
 .happyclints .box a{
     position: relative;
@@ -708,8 +709,7 @@ background-image: url(img/speaker_bg.png);
   font-size: 30px;
 }
 
-.khdamatma-01{
-	padding: 40px;	
+.khdamatma-01{	
 	background-image: url(img/speaker_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -804,6 +804,9 @@ background-image: url(img/speaker_bg.png);
 z-index: 9990;
 display: none;
 }
+.khdamatma-01 .carousel img{
+  height: 630px;
+}
 
 @media only screen and (min-width: 230px) and (max-width:780px) {
 	.project1{
@@ -837,6 +840,17 @@ display: none;
 .circular-menu{
 z-index: 9990;
 display:inline;
+}
+
+.khdamatma-01 .carousel img{
+  height: 250px;
+}
+.sectionslider .carousel img{
+  height: 160px;
+}
+.happyclints .box a img{
+    width:100%;
+    height:172px;
 }
 }
 
