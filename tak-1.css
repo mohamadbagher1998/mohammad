@@ -1,0 +1,805 @@
+html{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #ffffff !important;
+}
+@font-face {
+  font-family: 'man';
+  src:  url('BRoya.eot')  format('eot');
+        url('BRoya.woff') format('woff');
+}
+h6{
+	border-bottom: 1px solid black;
+	padding: 15px 10px;
+	margin-top: 7px;
+}
+.myclass{
+	font-family:IranNastaliq,'IranNastaliq',tahoma;
+}
+.myclass-titr{
+	font-family:BTitrBold,'BTitrBold',tahoma;
+}
+.header-1 {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+.header-1 {
+    background-image: url(../img/salon.jpg);
+    background-size: cover;
+    opacity: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 140px 0;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.header-1 h2{
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+.header-1 p{
+	color: #ffffff;
+	font-size: 25px;
+}
+.header-1 i{
+	color: #ffffff;
+	font-size: 30px;
+}
+.koliat-0 .kolit-1 .box-0{
+	background-color: #ffff;
+  padding: 15px 15px 17px 15px;
+}
+.koliat-0 .kolit-1 .box-0 h5{
+	border-bottom: 1px solid gray;
+	padding: 25px 5px;
+}
+.koliat-0 .kolit-1 .box-0 p{
+	padding-top: 8px;
+}
+.koliat-0 .kolit-1 .box-1{
+	background-color: #ebebeb;
+	border-right: 2px solid #b6a85a;
+	border-left: 2px solid #b6a85a;
+  padding: 20px;
+  height: fit-content;
+}
+.koliat-0 .kolit-1 .tab img{
+	width: 30px;
+}
+
+
+
+
+.koliat-0 .kolit-1 .khadamat-0 .scrollmenu .tab{
+  background-color: ;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.koliat-0 .kolit-1 .khadamat-0 .tab a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+
+
+.koliat-0 .kolit-1 .khadamat-0 .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f5f1e3;
+}
+
+/* Style the buttons inside the tab */
+.koliat-0 .kolit-1 .khadamat-0 .tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.koliat-0 .kolit-1 .khadamat-0 .tab button:hover {
+  background-color: #c3a551b3;
+  border-radius: 10px;
+}
+
+/* Create an active/current tablink class */
+.koliat-0 .kolit-1 .khadamat-0 .tab button.active {
+  background-color: #;
+  border-radius: 10px;
+}
+
+/* Style the tab content */
+.koliat-0 .kolit-1 .khadamat-0 .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: right;
+}
+.koliat-0 .kolit-1 .tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close-clos {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close-clos:hover,
+.close-clos:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 1158px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shir .shir-1 .column{
+	margin-top: 20px;
+}
+.shir .readMoreBtn {
+  background-color:#fff;
+  margin-top: 28px;
+  border: 1px solid #b6a85a; 
+  padding: 0.1rem 1.5rem;
+  border-radius: 31.25rem;
+  color:#b6a85a;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.shir .readMoreBtn:hover {
+	color: #fff;
+	background-color:#b6a85a;
+	transition: 0.7s;
+}
+.shir {
+  background-color:#f5f1e3;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.shir p{
+  font-size: 20px;
+  border-bottom: 1px solid #928641;
+  display: inline-block;
+  padding: 5px;  
+}
+
+
+
+.scrollmenu .tab a  .img-clas{
+  width: 60px;
+    display: block;
+    margin-bottom: 10px;
+}
+.tabcontent-contant .service-1 {
+  display: flex;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 60px;
+    max-width: 570px;
+    margin-right: 32px;
+    background-color: #f5f1e3;
+}
+.tabcontent-contant .service-1:hover {
+  border: 1px solid #000;
+  transition: all 0.8s;
+}
+.tabcontent-contant .service-1 .fav-icon-1{
+  align-items: center;
+    background-color: black;
+    color: #ffff;
+    position: relative;
+    left: 15px;
+    padding: 2px 10px;
+}
+.tabcontent-contant .service-1 .fav-icon-1 span{
+  display: block;
+  margin-top: 10px;
+}
+.tabcontent-contant .service-1 .fav-icon-1 i{
+  margin-top: 22px;
+}
+.tabcontent-contant .service-1 .service-content p{
+    margin-top: 8px;
+    color: black;
+}
+.tabcontent-contant .service-1 .service-content span{
+  font-size: .9em;
+    margin: 5px 7px;
+    color: black;
+}
+.tabcontent-contant .service-1 .readMoreBtn {
+  background-color:#fff;
+  border: 1px solid #b6a85a; 
+  padding: 0.1rem 1.5rem;
+  border-radius: 31.25rem;
+  color:#b6a85a;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  margin-right: 80px;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.tabcontent-contant .service-1 .readMoreBtn:hover {
+  color: #fff;
+  background-color:#b6a85a;
+  transition: 0.7s;
+}
+.tabcontent-contant .service-1 .service-content-0 span{
+  display: block;
+  margin-right: 80px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  color: black;
+}
+
+
+
+
+
+
+.vidieo-v .readMoreBtn {
+  background-color:#fff;
+  margin-top: 20px;
+  border: 1px solid #b6a85a; 
+  padding: 0.1rem 1.5rem;
+  border-radius: 31.25rem;
+  color:#b6a85a;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.vidieo-v .readMoreBtn:hover {
+	color: #fff;
+	background-color:#b6a85a;
+	transition: 0.7s;
+}
+.readMoreBtn {
+  background-color:#b6a85a;
+  border: 1px solid #b6a85a; 
+  padding: 0.1rem 1.5rem;
+  margin-top: 15px;
+  border-radius: 31.25rem;
+  color:#ffff;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: 0;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.vidieo-v #video1{
+	border-radius: 20px;
+	border:2px solid black;
+}
+.box-1 .salon-logo .salon-1-logo{
+	position: relative;
+    z-index: 2;
+    width: 191px;
+    height: 191px;
+    border-radius: 50%;
+    border: 2px solid #ab892c;
+    background-color: #ebebeb;
+    overflow: hidden;
+    margin-right: 74px;
+    bottom: 70px;
+}
+.box-1 .salon-logo .salon-1-logo img{
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;   
+}
+.box-1 .adres-1 span,i{
+	margin-top: 2px;
+}
+.box-1 .adres-1 i{
+	color: orange;
+}
+.adres-2 .map-responsive iframe{
+	max-width: 350px;
+	max-height: 250px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+.adres-2 .map-responsive{
+	border-radius: 20px;
+}
+
+
+.adres-2 h6{
+	border-bottom: 1px solid black;
+	padding:14px 5px;
+}
+.fater{
+	margin-top: 24px;
+}
+.fater h6{
+	border-bottom: 1px solid black;
+	padding: 14px 5px;
+}
+.fater .roze-hafte{
+	background-color: #fff;
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width: 400px;
+  height: 38px;
+  margin-bottom: 8px;
+}
+.fater .roze-hafte:hover{
+  transition: all 0.6s;
+  background-color:#b19d61;
+}
+.fater .roze-hafte:hover .roze-hafte-1 .roze-hafte-1-span{
+  transition: all 0.6s;
+  color: #fff;
+}
+.fater .roze-hafte:hover .roze-hafte-1 .roze-hafte-1-span-1{
+  transition: all 0.6s;
+  color: #fff;
+  font-size: 18px;
+}
+.fater .roze-hafte:hover .roze-hafte-1 i{
+  transition: all 0.6s;
+  color: #fff;
+  font-size: 20px;
+}
+.fater .roze-hafte .roze-hafte-1 .roze-hafte-1-span{
+	color: black;
+	float: right;
+}
+.fater .roze-hafte .roze-hafte-1 .roze-hafte-1-span-1{
+	color: black;
+}
+.fater .roze-hafte .roze-hafte-1 i{
+  color: black;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+.fater .roze-hafte .roze-hafte-1 .w{
+  margin-top: 5px;
+}
+
+
+
+.form-dar{
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 15px;
+	box-shadow: rgba(0,0,0,.15) 0 1px 3px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    margin-top: 30px;
+    background-color: #ffff;
+}
+.form-dar .readMoreBtn {
+  background-color:#fff;
+  margin-top: 20px;
+  border: 1px solid #b6a85a; 
+  padding: 5px 10px;
+  border-radius: 31.25rem;
+  color:#b6a85a;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.form-dar .readMoreBtn:hover {
+	color: #fff;
+	background-color:#b6a85a;
+	transition: 0.7s;
+}
+.comments{
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-top: 20px;
+    padding: 10px 20px 0 20px;
+    background: #fff;
+    box-shadow: -1px 3px 10px -3px #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.comments-javab{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+    padding: 10px 20px 0 20px;
+    background: #fff;
+    box-shadow: -1px 3px 10px -3px #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.comments-javab{
+  margin-right: 30px;
+} 
+
+.comments .esm,.y{
+	display: inline-block;
+}
+.comments .y{
+	float: left;
+}
+.comments .ci-headre{
+	margin-bottom: 20px;
+}
+
+
+
+
+.ci-footer .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.ci-footer .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.ci-footer .close-0 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.ci-footer .close-0:hover,
+.close-0:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ci-footer{
+	padding: 16px;
+}
+
+
+
+
+.manbato-share .social {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffff;
+  border-radius: 35px;
+  padding: 12px 30px;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.manbato-share .icon {
+  font-size: 2em;
+  transition: transform ease 0.2s;
+}
+
+.manbato-share .icon:hover {
+  transform: scale(1.3);
+}
+
+.manbato-share .twitter:hover {
+  color: #1da1f2;
+}
+
+.manbato-share .linkedin:hover {
+  color: #0e76a8;
+}
+
+.manbato-share .instagram:hover {
+  color: #fd1d1d;
+}
+.manbato-share .google:hover {
+  color: orange;
+}
+.manbato-share .container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+.manbato-share{
+  margin-top: 20px;
+}
+
+
+
+
+.mohamad-shomare{
+  margin-top: 25px;
+  margin-left: 64px;
+}
+.mohamad-shomare .modal-mohamad {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.mohamad-shomare .modal-content-mohamad {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.mohamad-shomare .modal-content-mohamad p{
+  white-space: nowrap;
+    border-radius: 3px;
+    background: #f8f8f8;
+    padding: 10px;margin-top: 20px
+}
+.mohamad-shomare .modal-content-mohamad span{
+  position: relative;
+  bottom: 20px;
+  color: red;
+}
+
+
+/* The Close Button */
+.mohamad-shomare .close-mohamad {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.mohamad-shomare .close-mohamad:hover,
+.close-mohamad:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mohamad-shomare #myBtn-mohamad{
+  background-color:#b6a85a;
+  border: 1px solid #b6a85a; 
+  padding:5px 12px;
+  margin-top: 15px;
+  border-radius: 31.25rem;
+  color:#ffff;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  outline: 0;
+  -webkit-box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+.mohamad-shomare #myBtn-mohamad i{
+  font-size: 25px;
+  color: #ffff;
+  padding: 0px 2px;
+}
+
+.sochial-web{
+  margin-right: 120px;
+}
+#sadaf{
+  margin-top: 6px;
+}
+.sidebar-box{
+  margin-bottom: 10px;
+}
+.sidebar-box .categories p{
+  display:inline;
+}
+.sidebar-box .categories span{
+  float: left;
+}
+.sidebar-box .categories span .emtiaz{
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+}
+.sidebar-box .categories span .emtiaz-0 h4{
+  padding: 8px;
+  font-size: 18px;
+}
+.sidebar-box .categories span .emtiaz-0 p{
+  text-align: center;
+  margin-right: 3px;
+}
+
+
+
+
+
+@media only screen and (min-width: 230px) and (max-width:780px) {
+	.box-1 .salon-logo .salon-1-logo{
+    bottom: 0px;
+    margin-right: 90px;
+    margin-bottom: 17px;
+}
+.next {
+  right:370px;
+  border-radius: 3px 0 0 3px;
+}
+.mohamad-shomare{
+  margin-top: 25px;
+  margin-left: 82px;
+}
+.mohamad-shomare .modal-content-mohamad {
+  width: 77%;
+}
+.adres-2 .map-responsive iframe{
+  margin-left: 14px;
+}
+.tabcontent-contant .service-1 {
+  margin-right: 0px;
+}
+.sochial-web{
+  margin-right: 20px;
+}
+}
+
+@media only screen and (min-width: 781px) and (max-width:1064px) {
+ 
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px) {
+}
